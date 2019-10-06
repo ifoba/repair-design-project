@@ -1,0 +1,906 @@
+@import url(/repair-design-project/scss/font.css);
+@import url("https://fonts.googleapis.com/css?family=Yeseva+One&display=swap");
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  color: #ffffff;
+}
+
+.wrapper-black {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 2;
+  background: #131313;
+}
+
+header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  height: 7vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  width: 16%;
+}
+
+.logo h1 {
+  font-family: "futuradr";
+  font-weight: normal;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+
+nav {
+  width: 53%;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+
+nav a {
+  font-family: "futurabr";
+  font-size: 1.4rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #E3B873;
+}
+
+.request {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 31%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.request .request_number {
+  padding: 2rem;
+}
+
+.request a {
+  font-family: "futuraDR";
+  font-size: 1.4rem;
+  color: #E3B873;
+}
+
+.request input {
+  padding: 1.3rem 3.2rem;
+  font-family: "futuradr";
+  font-size: 1.3rem;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background: #E3B873;
+  border: none;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+          box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  cursor: pointer;
+}
+
+.turnkey {
+  width: 100%;
+}
+
+.turnkey_wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.turnkey_wrapper .instagram {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80px;
+  height: 80vh;
+}
+
+.turnkey_wrapper .instagram a {
+  position: absolute;
+  top: 40vh;
+  left: -35px;
+  display: block;
+  width: 150px;
+  font-family: "futuradr";
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #E3B873;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.turnkey_wrapper .instagram a:after {
+  display: inline-block;
+  content: "";
+  width: 50px;
+  height: 2px;
+  margin: 0 0 3px 1vh;
+  background: #E3B873;
+}
+
+.turnkey_wrapper .turnkey_repair {
+  width: 95%;
+  height: 80vh;
+  background: url(./assets/turnkey-bg.png);
+  background-size: cover;
+}
+
+.turnkey_wrapper .turnkey_repair h2 {
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 15vh;
+  font-family: 'Yeseva One', cursive;
+  font-size: 4rem;
+  font-weight: normal;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.turnkey_wrapper .turnkey_repair span {
+  color: #E3B873;
+}
+
+.turnkey_wrapper .turnkey_repair p {
+  width: 32%;
+  margin-left: 5%;
+  font-family: "futurabr";
+  font-size: 2.2rem;
+  font-weight: normal;
+  line-height: 3rem;
+}
+
+.turnkey_wrapper .turnkey_repair .turnkey_repair_btn {
+  margin-left: 5%;
+}
+
+.turnkey_wrapper .turnkey_repair .turnkey_repair_btn .btn {
+  padding: 2rem 4rem;
+  font-family: "futuradr";
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 1px solid #E3B873;
+  border-radius: 0.2rem;
+  background: #E3B873;
+  cursor: pointer;
+}
+
+.turnkey_wrapper .turnkey_repair .turnkey_repair_btn .btn_invert {
+  padding: 2rem 4rem;
+  margin-left: 2rem;
+  font-family: "futuradr";
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 0.2rem;
+  background: none;
+  cursor: pointer;
+}
+
+.scroll-down {
+  position: relative;
+  top: -6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20%;
+  height: 10vh;
+  padding: 4rem 0 0 0rem;
+  background: #131313;
+}
+
+.scroll-down p {
+  margin: 1rem;
+  padding-right: 2rem;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  text-transform: uppercase;
+}
+
+.scroll-down img {
+  height: 4rem;
+  cursor: pointer;
+}
+
+.theme-list {
+  width: 100%;
+  margin-bottom: 5vh;
+}
+
+.theme-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 42%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  list-style: none;
+}
+
+.theme-list a {
+  position: relative;
+  padding-right: 4rem;
+  text-decoration: none;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.theme-list a:hover {
+  color: #E3B873;
+}
+
+.theme-list a:hover:after {
+  position: absolute;
+  top: 25px;
+  content: "";
+  display: block;
+  height: 1px;
+  width: 85%;
+  background: #E3B873;
+  opacity: 1;
+}
+
+.projects {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.projects .projects_complete {
+  width: 43%;
+  padding-left: 9%;
+}
+
+.projects .projects_complete h3 {
+  width: 55%;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.7rem;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+
+.projects .projects_complete h3:after {
+  display: inline-block;
+  content: "";
+  width: 80px;
+  height: 1px;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  background: #E3B873;
+}
+
+.projects .projects_complete p {
+  width: 90%;
+  font-family: "FuturaBr";
+  font-size: 1.8rem;
+  line-height: 29px;
+  font-weight: 100;
+  color: #FFFFFF;
+}
+
+.projects .projects_slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 60%;
+  position: relative;
+}
+
+.projects .projects_slider .projects_slider_img {
+  width: 100%;
+  padding-right: 3rem;
+}
+
+.projects .projects_slider .projects_slider_scroll_left {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: none;
+}
+
+.projects .projects_slider .projects_slider_scroll_right {
+  position: absolute;
+  top: 40%;
+  left: 88%;
+}
+
+.projects_characteristic {
+  position: absolute;
+  top: 50%;
+  width: 43%;
+  padding-left: 9%;
+}
+
+.projects_characteristic .projects_characteristic_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.projects_characteristic .projects_characteristic_wrapper .chapter {
+  display: block;
+  width: 50%;
+  padding: 0vh;
+}
+
+.projects_characteristic .projects_characteristic_wrapper .chapter h4 {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+
+.projects_characteristic .projects_characteristic_wrapper .chapter p {
+  width: 45%;
+  font-family: "FuturaBR";
+  font-size: 1.5rem;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.video_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-top: 15vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.video_section h4 {
+  margin: 0;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.video_section label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1vh;
+}
+
+.video_section label:before {
+  display: block;
+  content: "";
+  height: 1px;
+  width: 30px;
+  margin: 12px 10px;
+  background: #E3B873;
+  color: #FFFFFF;
+}
+
+.video_section label:after {
+  display: block;
+  content: "";
+  height: 1px;
+  width: 30px;
+  margin: 12px 10px;
+  background: #E3B873;
+  color: #FFFFFF;
+}
+
+.video_section label img {
+  display: block;
+}
+
+.video_section .color_transform {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 3vh;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #131313), color-stop(50%, #ffffff));
+  background: linear-gradient(#131313 50%, #ffffff 50%);
+}
+
+.video_section .color_transform video {
+  display: block;
+  top: 1px;
+  background: url("./assets/preview.png");
+  width: 50%;
+}
+
+.video_section .color_transformtxt {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ffffff;
+}
+
+.video_section .color_transformtxt p {
+  position: relative;
+  z-index: 100;
+  width: 50%;
+  font-family: "Futurabr";
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #363636;
+  background: #FFFFFF;
+}
+
+.video_section .color_transformtxt p:before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 1px;
+  margin: 3vh 0 2vh 47%;
+  background: #E3B873;
+}
+
+.wrapper-white {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #ffffff;
+  color: #363636;
+  font-size: 10px;
+}
+
+.wrapper-white .user-form {
+  width: 50%;
+  font-size: 1.5rem;
+}
+
+.wrapper-white .user-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper-white .user-form form .user-form_box {
+  width: 80%;
+}
+
+.wrapper-white .user-form form .user-form_box .user-form_name,
+.wrapper-white .user-form form .user-form_box .user-form_phone {
+  display: inline-block;
+  width: 45%;
+}
+
+.wrapper-white .user-form form .user-form_box .user-form_name label,
+.wrapper-white .user-form form .user-form_box .user-form_phone label {
+  display: inline-block;
+  width: 45%;
+  font-family: "FuturaBr";
+  font-size: 1.5rem;
+  line-height: 20px;
+  color: rgba(54, 54, 54, 0.5);
+}
+
+.wrapper-white .user-form form .user-form_box .user-form_name input,
+.wrapper-white .user-form form .user-form_box .user-form_phone input {
+  width: 90%;
+  font-family: "FuturaBr";
+  font-size: 18px;
+  line-height: 24px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.wrapper-white .user-form form .user-form_box .checkbox {
+  float: right;
+  margin-right: 14%;
+  margin-top: 7vh;
+  font-family: "FuturaBr";
+  font-size: 16px;
+  line-height: 22px;
+  color: #181818;
+}
+
+.wrapper-white .user-form form .user-form_submit {
+  width: 20%;
+}
+
+.wrapper-white .user-form form .user-form_submit input {
+  padding: 1.5rem 6rem;
+  font-family: "futuradr";
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 1px solid #E3B873;
+  border-radius: 0.2rem;
+  background: #E3B873;
+  cursor: pointer;
+}
+
+.wrapper-white .repair-types {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-top: 15vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.wrapper-white .repair-types h4 {
+  margin: 0;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #181818;
+}
+
+.wrapper-white .repair-types label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1vh;
+}
+
+.wrapper-white .repair-types label:before {
+  display: block;
+  content: "";
+  height: 1px;
+  width: 30px;
+  margin: 12px 10px;
+  background: #E3B873;
+  color: #FFFFFF;
+}
+
+.wrapper-white .repair-types label:after {
+  display: block;
+  content: "";
+  height: 1px;
+  width: 30px;
+  margin: 12px 10px;
+  background: #E3B873;
+  color: #FFFFFF;
+}
+
+.wrapper-white .repair-types label img {
+  display: block;
+}
+
+.content-wrapper {
+  width: 90%;
+}
+
+.content-wrapper .repair {
+  margin-top: 3vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.content-wrapper .repair .repair_box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30%;
+}
+
+.content-wrapper .repair .repair_box img {
+  display: block;
+  width: 100%;
+  padding-bottom: 5rem;
+}
+
+.content-wrapper .repair .repair_box .repair_list {
+  position: absolute;
+  top: 30rem;
+  width: 80%;
+  background: #FFFFFF;
+}
+
+.content-wrapper .repair .repair_box .repair_list h5 {
+  padding-left: 3rem;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 25px;
+  color: #363636;
+}
+
+.content-wrapper .repair .repair_box .repair_list li {
+  font-family: FuturaBookC;
+  font-size: 1.5rem;
+  line-height: 25px;
+  color: #959595;
+}
+
+.content-wrapper .repair .repair_box .repair_list .price {
+  margin-top: 4rem;
+}
+
+.content-wrapper .repair .repair_box .repair_list .price span {
+  padding: 1rem;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #E3B873;
+}
+
+.departure {
+  width: 100%;
+  margin-top: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.departure .departure_img {
+  width: 60%;
+  height: 700px;
+  background: url(./assets/house.png) no-repeat;
+  background-size: contain;
+  float: right;
+}
+
+.departure .departure_img p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 51%;
+  float: right;
+  font-family: "Futuradr";
+  font-size: 1.8rem;
+  line-height: 21px;
+  color: #363636;
+}
+
+.departure .departure_img p:before {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  content: "";
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 25px;
+  text-align: center;
+  background: #E3B873;
+  border-radius: 50%;
+  color: #FFFFFF;
+}
+
+.departure .departure_img .departure_img_list1 {
+  top: 105px;
+  right: 65px;
+}
+
+.departure .departure_img .departure_img_list1:before {
+  content: "01";
+}
+
+.departure .departure_img .departure_img_list2 {
+  top: 138px;
+  right: -12px;
+}
+
+.departure .departure_img .departure_img_list2:before {
+  content: "02";
+}
+
+.departure .departure_img .departure_img_list3 {
+  top: 228px;
+  right: -37px;
+}
+
+.departure .departure_img .departure_img_list3:before {
+  content: "03";
+}
+
+.departure .departure_img .departure_img_list4 {
+  top: 317px;
+  right: 28px;
+}
+
+.departure .departure_img .departure_img_list4:before {
+  content: "04";
+}
+
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  html {
+    font-size: 10px;
+  }
+  .logo {
+    width: 50%;
+  }
+  .logo h1 {
+    font-size: 1.2rem;
+  }
+  nav {
+    display: none;
+  }
+  .request {
+    width: 50%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .request a {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+  }
+  .request .request_btn {
+    display: none;
+  }
+  .turnkey .instagram {
+    display: none;
+  }
+  .turnkey .turnkey_repair {
+    width: 100%;
+  }
+  .turnkey .turnkey_repair h2 {
+    width: 90%;
+    font-size: 2.3rem;
+    line-height: 31px;
+  }
+  .turnkey .turnkey_repair p {
+    width: 80%;
+    font-size: 1.8rem;
+    line-height: 24px;
+  }
+  .turnkey .turnkey_repair_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 5vh 5%;
+  }
+  .scroll-down {
+    display: none;
+  }
+  .turnkey_wrapper .turnkey_repair .turnkey_repair_btn .btn_invert {
+    padding: 2rem 4rem;
+    margin-top: 4vh;
+    margin-left: 0rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */

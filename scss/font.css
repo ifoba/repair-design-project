@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "FuturaBR";
+    src: url(./fonts/futurabookc.otf)
+}
+
+@font-face {
+    font-family: "FuturaDR";
+    src: url(./fonts/futurademic.otf)
+}
+
+@font-face {
+    font-family: "FuturaDI";
+    src: url(./fonts/futurademic-italic.otf)
+}
+
+@font-face {
+    font-family: "FuturaDR";
+    src: url(./fonts/futuramediumc.otf)
+}
